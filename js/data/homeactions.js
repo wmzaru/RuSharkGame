@@ -1,9 +1,9 @@
 SharkGame.HomeActions = {
 
-    // FREEBIES ////////////////////////////////////////////////////////////////////////////////
+    // ХАЛЯВА ////////////////////////////////////////////////////////////////////////////////
 
     'catchFish': {
-        name: "Catch fish",
+        name: "Ловить рібу",
         effect: {
             resource: {
                 'fish': 1
@@ -54,11 +54,11 @@ SharkGame.HomeActions = {
             "Ate a tuna."
 
         ],
-        helpText: "Use your natural shark prowess to find and catch a fish."
+        helpText: "Используйте свое естественное мастерство акул, чтобы найти и поймать рыбу."
     },
 
     'prySponge': {
-        name: "Pry sponge",
+        name: "Искать губку",
         effect: {
             resource: {
                 'sponge': 1
@@ -94,11 +94,11 @@ SharkGame.HomeActions = {
             "Pried an orange lumpy encrusting sponge from the rocks.",
             "Pried a giant barrel sponge from the rocks."
         ],
-        helpText: "Grab a sponge from the seabed for future use."
+        helpText: "Возьмите губку с морского дна для будущего использования."
     },
 
     'getClam': {
-        name: "Get clam",
+        name: "Получить моллюск",
         effect: {
             resource: {
                 'clam': 1
@@ -132,11 +132,11 @@ SharkGame.HomeActions = {
             "Got a peppery furrow shell.",
             "Got a pearl oyster."
         ],
-        helpText: "Fetch a clam. Why do we need clams now? Who knows."
+        helpText: "Принеси моллюска. Зачем нам моллюски сейчас? Кто знает."
     },
 
     'getJellyfish': {
-        name: "Grab jellyfish",
+        name: "Захватить медуз",
         effect: {
             resource: {
                 'jellyfish': 1
@@ -149,38 +149,38 @@ SharkGame.HomeActions = {
             ]
         },
         outcomes: [
-            "Grabbed a mangrove jellyfish.",
-            "Grabbed a lagoon jellyfish.",
-            "Grabbed a nomuras jellyfish.",
-            "Grabbed a sea nettle jellyfish.",
-            "Grabbed an upside down jellyfish.",
-            "Grabbed a comb jellyfish.",
-            "Grabbed a sand jellyfish.",
-            "Grabbed a box jellyfish.",
-            "Grabbed a sea wasp jellyfish.",
-            "Grabbed a blue blubber.",
-            "Grabbed a white spotted jellyfish.",
-            "Grabbed an immortal jellyfish.",
-            "Grabbed a pelagia noctiluca.",
-            "Grabbed a moon light jellyfish.",
-            "Grabbed an iracongi irukandji jellyfish.",
-            "Grabbed an irukandji jellyfish.",
-            "Grabbed a moon jellyfish.",
-            "Grabbed an aurelia aurita.",
-            "Grabbed a ball jellyfish.",
-            "Grabbed a cannonball jellyfish.",
-            "Grabbed a man of war.",
-            "Grabbed a war jellyfish.",
-            "Grabbed a blue bottle jellyfish.",
-            "Grabbed a lion's mane jellyfish.",
-            "Grabbed a mane jellyfish.",
-            "Grabbed a sun jellyfish.",
-            "Grabbed a square jellyfish.",
-            "Grabbed a physalia jellyfish.",
-            "Grabbed a king jellyfish.",
-            "Grabbed a cassiopeia jellyfish."
+            "Схватил мангровых медуз.",
+            "Схватил медузу лагуны.",
+            "Схватил номуразу медуз.",
+            "Схватил медузу из морской крапивы",
+            "Схватил перевернутую медузу",
+            "Схватил в расческу медузу.",
+            "Схватил песчаную медузу.",
+            "Схватил коробку медузы.",
+            "Схватил морскую осу медуз.",
+            "Схватил синий жир.",
+            "Схватил белую пятнистую медузу.",
+            "Схватил бессмертную медузу.",
+            "Схватил pelagia noctiluca.",
+            "Схватил медуза лунного света.",
+            "Схватил медузы ираконги ируканджи.",
+            "Схватил медузу ируканджи.",
+            "Схватил лунную медузу.",
+            "Схватил аурелию ауриту.",
+            "Схватил шарик медузы.",
+            "Схватил медузу пушечное ядро.",
+            "Схватил военного".
+            "Схватил военную медузу.",
+            "Схватил голубую бутылку медузы.",
+            "Схватил львиную гриву медузы.",
+            "Схватил гриву медузы.",
+            "Схватил солнечную медузу.",
+            "Схватил квадратную медузу.",
+            "Схватил медузы физалии.",
+            "Схватил король медуз.",
+            "Схватил медузу кассиопеи."
         ],
-        helpText: "Take a great risk in catching a jellyfish without being stung."
+        helpText: "Рискните поймать медузу без укуса."
     },
 
     // CONVERSIONS ////////////////////////////////////////////////////////////////////////////////
