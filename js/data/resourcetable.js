@@ -5,25 +5,25 @@ SharkGame.ResourceTable = {
     numen: {
         name: 'numina',
         singleName: 'numen',
-        //desc: "Вы думаете, что это божество. Вы действуете как божество. Вы божество.",
+        //desc: "You think as a deity. You act as a deity. You are a deity.",
         color: '#FFFFFF',
         value: -1
     },
 
     essence: {
-        name: 'сущность',
+        name: 'essence',
         singleName: 'essence',
-        //desc: "Эфирная сила, грубая и опасная.",
+        //desc: "Etheric force, raw and dangerous.",
         color: '#ACE3D1',
         value: -1
     },
 
-    // безумие
+    // FRENZY
 
     shark: {
-        name: 'акулы',
-        singleName: 'акулa',
-        //desc: "Вершина хищников морей.",
+        name: 'sharks',
+        singleName: 'shark',
+        //desc: "Apex predators of the seas.",
         color: '#92C1E0',
         income: {
             'fish': 1
@@ -142,14 +142,14 @@ SharkGame.ResourceTable = {
     },
 
     octopus: {
-        name: 'осьминоги', // the word 'octopus' in english is taken from latin
+        name: 'octopuses', // the word 'octopus' in english is taken from latin
         // which in turn took it from greek
         // when it was taken from greek and made into latin it kept the original plural
         // now the word is taken from latin and maybe we should take the original plural but
         // look basically the point is this is a long and storied word
         // and the english plural system should apply because we're talking about octopus, not ὀκτώπους, so just
         // why are you reading this
-        singleName: 'осьминог',
+        singleName: 'octopus',
         color: '#965F37',
         income: {
             'clam': 2
@@ -162,8 +162,8 @@ SharkGame.ResourceTable = {
     },
 
     eel: {
-        name: 'угри',
-        singleName: 'угорь',
+        name: 'eels',
+        singleName: 'eel',
         color: '#718D68',
         income: {
             'fish': 0.3,
@@ -180,9 +180,9 @@ SharkGame.ResourceTable = {
     // BREEDERS
 
     nurse: {
-        name: 'няня акул',
-        singleName: 'акула-нянька',
-        //desc: "Защищать будущее.",
+        name: 'nurse sharks',
+        singleName: 'nurse shark',
+        //desc: "Safeguarding the future.",
         color: '#C978DE',
         income: {
             'shark': 0.01
@@ -191,9 +191,9 @@ SharkGame.ResourceTable = {
     },
 
     maker: {
-        name: 'создатели лучей',
-        singleName: 'создатель лучей',
-        //desc: "Смотрители беспомощных.",
+        name: 'ray makers',
+        singleName: 'ray maker',
+        //desc: "Caretakers of the helpless.",
         color: '#5355ED',
         income: {
             'ray': 0.05
@@ -202,9 +202,9 @@ SharkGame.ResourceTable = {
     },
 
     brood: {
-        name: 'крабовые выводки',
-        singleName: 'крабовый выводок',
-        //desc: "Бесконечный процесс.",
+        name: 'crab broods',
+        singleName: 'crab brood',
+        //desc: "The unending process.",
         color: '#9E7272',
         income: {
             'crab': 0.2
@@ -213,8 +213,8 @@ SharkGame.ResourceTable = {
     },
 
     queen: {
-        name: 'королевы креветок',
-        singleName: 'королева креветок',
+        name: 'shrimp queens',
+        singleName: 'shrimp queen',
         color: '#EEA271',
         income: {
             'shrimp': 1,
@@ -224,8 +224,8 @@ SharkGame.ResourceTable = {
     },
 
     berrier: {
-        name: 'лангусты',
-        singleName: 'лангусты',
+        name: 'lobster berriers',
+        singleName: 'lobster berrier',
         color: '#719188',
         income: {
             'lobster': 0.05
@@ -234,8 +234,8 @@ SharkGame.ResourceTable = {
     },
 
     biologist: {
-        name: 'биологи дельфинов',
-        singleName: 'биолог дельфин',
+        name: 'dolphin biologists',
+        singleName: 'dolphin biologist',
         color: '#5C9976',
         income: {
             'dolphin': 0.005
@@ -244,8 +244,8 @@ SharkGame.ResourceTable = {
     },
 
     pit: {
-        name: 'ямі угрей',
-        singleName: 'яма угря',
+        name: 'eel pits',
+        singleName: 'eel pit',
         color: '#3F6E86',
         income: {
             'eel': 0.01
@@ -253,7 +253,7 @@ SharkGame.ResourceTable = {
         value: 4000
     },
 
-    // СПЕЦИАЛИСТЫ
+    // SPECIALISTS
 
     scientist: {
         name: 'science sharks',
@@ -736,8 +736,8 @@ SharkGame.ResourceTable = {
     },
 
     delphinium: {
-        name: 'дельфиниум',
-        singleName: 'дельфиниум',
+        name: 'delphinium',
+        singleName: 'delphinium',
         color: '#5BD1A8',
         value: 70
     },
@@ -801,8 +801,8 @@ SharkGame.ResourceTable = {
     },
 
     ice: {
-        name: 'лед',
-        singleName: 'лед',
+        name: 'ice',
+        singleName: 'ice',
         color: '#E4F1FB',
         income: {
             fish: -0.001,
@@ -824,7 +824,7 @@ SharkGame.ResourceCategories = {
     special: {
         name: "Special",
         disposeMessage: [
-            "Что вы наделали??"
+            "What have you done??"
         ],
         resources: [
             "numen",
@@ -875,7 +875,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     specialists: {
-        name: "Специалисты",
+        name: "Specialists",
         disposeMessage: [
             "All that training for nothing. Oh well.",
             "Their equipment isn't salvageable, unfortunately, but that's how these things go. The ocean gives, and the ocean corrodes things away.",
@@ -903,7 +903,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     machines: {
-        name: "Машины",
+        name: "Machines",
         disposeMessage: [
             "The stopped machines are left as a home for tinier life.",
             "The machines calculate your actions as inefficient and a danger to productivity.",
@@ -933,14 +933,14 @@ SharkGame.ResourceCategories = {
         ]
     },
     science: {
-        name: "Наука",
+        name: "Science",
         disposeMessage: [
-            "Тысячи акул исследования в канализацию.",
-            "По какой возможной причине ты это делаешь?!",
-            "Академии акул услышат об этом антиинтеллектуальном акте варварства!",
-            "Научные советники лихорадочно бормочут между собой, избавляясь от науки.",
-            "Мы избавляемся от науки сейчас! Нет больше обучения! Нет больше прогрессии! Просто бездумно нажимая на те же самые кнопки, которые мы нажимали часами!",
-            "Вы боитесь ПРОГРЕССА?"
+            "Thousands of sharkhours of research down the drain.",
+            "What possible reason are you doing this for?!",
+            "The shark academies will hear of this anti-intellectual act of barbarism!",
+            "The science advisors frantically murmur among themselves while disposing of the science.",
+            "We're getting rid of the science now! No more learning! No more progression! Just mindlessly clicking the exact same buttons we've been clicking for hours!!",
+            "Are you afraid of PROGRESS?"
         ],
         resources: [
             "science"
@@ -985,14 +985,14 @@ SharkGame.ResourceCategories = {
         ]
     },
     processed: {
-        name: "Обработанный",
+        name: "Processed",
         disposeMessage: [
-            "Утилизировать, очень осторожно, с большим количеством токов и большим расстоянием.",
-            "Проходящие через промышленные отходы",
-            "Надеюсь, этот материал не токсичен. С надеждой.",
-            "Этот материал - будущее! Будущее неуклюжих веществ!",
-            "Основание современного безумия акул, возможно, но также и своего рода захват всего пространства.",
-            "Будем надеяться, что мы не пожалеем об этом."
+            "Disposed of, very carefully, with lots of currents and plenty of distance.",
+            "Industrial waste, coming through.",
+            "This stuff is hopefully not toxic. Hopefully.",
+            "This stuff is the future! The future of awkward-to-dispose substances!",
+            "The foundation of a modern shark frenzy, perhaps, but also sort of taking up all the space.",
+            "Let's hope we don't regret it."
         ],
         resources: [
             "sharkonium",
@@ -1003,9 +1003,9 @@ SharkGame.ResourceCategories = {
         ]
     },
     harmful: {
-        name: "Вредный",
+        name: "Harmful",
         disposeMessage: [
-            "О, тебе бы это понравилось, не так ли?"
+            "Oh, you'd like that, wouldn't you."
         ],
         resources: [
             "tar",
