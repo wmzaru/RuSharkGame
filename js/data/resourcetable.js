@@ -5,7 +5,7 @@ SharkGame.ResourceTable = {
     numen: {
         name: 'numina',
         singleName: 'numen',
-        //desc: "You think as a deity. You act as a deity. You are a deity.",
+        //desc: "Вы думаете, что это божество. Вы действуете как божество. Вы божество.",
         color: '#FFFFFF',
         value: -1
     },
@@ -736,8 +736,8 @@ SharkGame.ResourceTable = {
     },
 
     delphinium: {
-        name: 'delphinium',
-        singleName: 'delphinium',
+        name: 'дельфиниум',
+        singleName: 'дельфиниум',
         color: '#5BD1A8',
         value: 70
     },
@@ -801,8 +801,8 @@ SharkGame.ResourceTable = {
     },
 
     ice: {
-        name: 'ice',
-        singleName: 'ice',
+        name: 'лед',
+        singleName: 'лед',
         color: '#E4F1FB',
         income: {
             fish: -0.001,
@@ -824,7 +824,7 @@ SharkGame.ResourceCategories = {
     special: {
         name: "Special",
         disposeMessage: [
-            "What have you done??"
+            "Что вы наделали??"
         ],
         resources: [
             "numen",
@@ -875,7 +875,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     specialists: {
-        name: "Specialists",
+        name: "Специалисты",
         disposeMessage: [
             "All that training for nothing. Oh well.",
             "Their equipment isn't salvageable, unfortunately, but that's how these things go. The ocean gives, and the ocean corrodes things away.",
@@ -903,7 +903,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     machines: {
-        name: "Machines",
+        name: "Машины",
         disposeMessage: [
             "The stopped machines are left as a home for tinier life.",
             "The machines calculate your actions as inefficient and a danger to productivity.",
@@ -933,14 +933,14 @@ SharkGame.ResourceCategories = {
         ]
     },
     science: {
-        name: "Science",
+        name: "Наука",
         disposeMessage: [
-            "Thousands of sharkhours of research down the drain.",
-            "What possible reason are you doing this for?!",
-            "The shark academies will hear of this anti-intellectual act of barbarism!",
-            "The science advisors frantically murmur among themselves while disposing of the science.",
-            "We're getting rid of the science now! No more learning! No more progression! Just mindlessly clicking the exact same buttons we've been clicking for hours!!",
-            "Are you afraid of PROGRESS?"
+            "Тысячи акул исследования в канализацию.",
+            "По какой возможной причине ты это делаешь?!",
+            "Академии акул услышат об этом антиинтеллектуальном акте варварства!",
+            "Научные советники лихорадочно бормочут между собой, избавляясь от науки.",
+            "Мы избавляемся от науки сейчас! Нет больше обучения! Нет больше прогрессии! Просто бездумно нажимая на те же самые кнопки, которые мы нажимали часами!",
+            "Вы боитесь ПРОГРЕССА?"
         ],
         resources: [
             "science"
@@ -985,14 +985,14 @@ SharkGame.ResourceCategories = {
         ]
     },
     processed: {
-        name: "Processed",
+        name: "Обработанный",
         disposeMessage: [
-            "Disposed of, very carefully, with lots of currents and plenty of distance.",
-            "Industrial waste, coming through.",
-            "This stuff is hopefully not toxic. Hopefully.",
-            "This stuff is the future! The future of awkward-to-dispose substances!",
-            "The foundation of a modern shark frenzy, perhaps, but also sort of taking up all the space.",
-            "Let's hope we don't regret it."
+            "Утилизировать, очень осторожно, с большим количеством токов и большим расстоянием.",
+            "Проходящие через промышленные отходы",
+            "Надеюсь, этот материал не токсичен. С надеждой.",
+            "Этот материал - будущее! Будущее неуклюжих веществ!",
+            "Основание современного безумия акул, возможно, но также и своего рода захват всего пространства.",
+            "Будем надеяться, что мы не пожалеем об этом."
         ],
         resources: [
             "sharkonium",
@@ -1003,9 +1003,9 @@ SharkGame.ResourceCategories = {
         ]
     },
     harmful: {
-        name: "Harmful",
+        name: "Вредный",
         disposeMessage: [
-            "Oh, you'd like that, wouldn't you."
+            "О, тебе бы это понравилось, не так ли?"
         ],
         resources: [
             "tar",
