@@ -11,19 +11,19 @@ SharkGame.ResourceTable = {
     },
 
     essence: {
-        name: 'essence',
+        name: 'сущность',
         singleName: 'essence',
-        //desc: "Etheric force, raw and dangerous.",
+        //desc: "Эфирная сила, грубая и опасная.",
         color: '#ACE3D1',
         value: -1
     },
 
-    // FRENZY
+    // безумие
 
     shark: {
-        name: 'sharks',
-        singleName: 'shark',
-        //desc: "Apex predators of the seas.",
+        name: 'акулы',
+        singleName: 'акулa',
+        //desc: "Вершина хищников морей.",
         color: '#92C1E0',
         income: {
             'fish': 1
@@ -142,14 +142,14 @@ SharkGame.ResourceTable = {
     },
 
     octopus: {
-        name: 'octopuses', // the word 'octopus' in english is taken from latin
+        name: 'осьминоги', // the word 'octopus' in english is taken from latin
         // which in turn took it from greek
         // when it was taken from greek and made into latin it kept the original plural
         // now the word is taken from latin and maybe we should take the original plural but
         // look basically the point is this is a long and storied word
         // and the english plural system should apply because we're talking about octopus, not ὀκτώπους, so just
         // why are you reading this
-        singleName: 'octopus',
+        singleName: 'осьминог',
         color: '#965F37',
         income: {
             'clam': 2
@@ -162,8 +162,8 @@ SharkGame.ResourceTable = {
     },
 
     eel: {
-        name: 'eels',
-        singleName: 'eel',
+        name: 'угри',
+        singleName: 'угорь',
         color: '#718D68',
         income: {
             'fish': 0.3,
@@ -180,9 +180,9 @@ SharkGame.ResourceTable = {
     // BREEDERS
 
     nurse: {
-        name: 'nurse sharks',
-        singleName: 'nurse shark',
-        //desc: "Safeguarding the future.",
+        name: 'няня акул',
+        singleName: 'акула-нянька',
+        //desc: "Защищать будущее.",
         color: '#C978DE',
         income: {
             'shark': 0.01
@@ -191,9 +191,9 @@ SharkGame.ResourceTable = {
     },
 
     maker: {
-        name: 'ray makers',
-        singleName: 'ray maker',
-        //desc: "Caretakers of the helpless.",
+        name: 'создатели лучей',
+        singleName: 'создатель лучей',
+        //desc: "Смотрители беспомощных.",
         color: '#5355ED',
         income: {
             'ray': 0.05
@@ -202,9 +202,9 @@ SharkGame.ResourceTable = {
     },
 
     brood: {
-        name: 'crab broods',
-        singleName: 'crab brood',
-        //desc: "The unending process.",
+        name: 'крабовые выводки',
+        singleName: 'крабовый выводок',
+        //desc: "Бесконечный процесс.",
         color: '#9E7272',
         income: {
             'crab': 0.2
@@ -213,8 +213,8 @@ SharkGame.ResourceTable = {
     },
 
     queen: {
-        name: 'shrimp queens',
-        singleName: 'shrimp queen',
+        name: 'королевы креветок',
+        singleName: 'королева креветок',
         color: '#EEA271',
         income: {
             'shrimp': 1,
@@ -224,8 +224,8 @@ SharkGame.ResourceTable = {
     },
 
     berrier: {
-        name: 'lobster berriers',
-        singleName: 'lobster berrier',
+        name: 'лангусты',
+        singleName: 'лангусты',
         color: '#719188',
         income: {
             'lobster': 0.05
@@ -234,8 +234,8 @@ SharkGame.ResourceTable = {
     },
 
     biologist: {
-        name: 'dolphin biologists',
-        singleName: 'dolphin biologist',
+        name: 'биологи дельфинов',
+        singleName: 'биолог дельфин',
         color: '#5C9976',
         income: {
             'dolphin': 0.005
@@ -244,8 +244,8 @@ SharkGame.ResourceTable = {
     },
 
     pit: {
-        name: 'eel pits',
-        singleName: 'eel pit',
+        name: 'ямі угрей',
+        singleName: 'яма угря',
         color: '#3F6E86',
         income: {
             'eel': 0.01
@@ -253,7 +253,7 @@ SharkGame.ResourceTable = {
         value: 4000
     },
 
-    // SPECIALISTS
+    // СПЕЦИАЛИСТЫ
 
     scientist: {
         name: 'science sharks',
