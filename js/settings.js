@@ -26,8 +26,8 @@ SharkGame.Settings = {
 
     groupResources: {
         defaultSetting: false,
-        name: "Group Resources",
-        desc: "Group resources in the table into categories for legibility.",
+        name: "Группировка Ресурсов",
+        desc: "Сгруппируйте ресурсы в таблице по категориям для удобочитаемости.",
         show: true,
         options: [
             true,
@@ -40,8 +40,8 @@ SharkGame.Settings = {
 
     buttonDisplayType: {
         defaultSetting: "list",
-        name: "Home Sea Button Display",
-        desc: "Do you want a vertical list of buttons, or a more space-saving configuration?",
+        name: "Упрощенный вид кнопок",
+        desc: "Хотите вертикальный список кнопок или более компактную конфигурацию?",
         show: true,
         options: [
             "list",
@@ -54,8 +54,8 @@ SharkGame.Settings = {
 
     offlineModeActive: {
         defaultSetting: true,
-        name: "Offline Mode",
-        desc: "Let your numbers increase even with the game closed!",
+        name: "Автономный Режим",
+        desc: "Пусть ваши цифры увеличиваются даже при закрытой игре!",
         show: true,
         options: [
             true,
@@ -66,8 +66,8 @@ SharkGame.Settings = {
     autosaveFrequency: {
         // times given in minutes
         defaultSetting: 5,
-        name: "Autosave Frequency",
-        desc: "Number of minutes between autosaves.",
+        name: "Частота автосохранения",
+        desc: "Количество минут между автосохранениями.",
         show: true,
         options: [
             1,
@@ -85,8 +85,8 @@ SharkGame.Settings = {
 
     logMessageMax: {
         defaultSetting: 20,
-        name: "Max Log Messages",
-        desc: "How many messages to show before removing old ones.",
+        name: "Количество сообщений в логе",
+        desc: "Сколько сообщений показывать перед удалением старых.",
         show: true,
         options: [
             5,
@@ -104,8 +104,8 @@ SharkGame.Settings = {
 
     sidebarWidth: {
         defaultSetting: "25%",
-        name: "Sidebar Width",
-        desc: "How much screen estate the sidebar should take.",
+        name: "Ширина боковой панели",
+        desc: "Сколько экрана должно занимать боковая панель.",
         show: true,
         options: [
             "20%",
@@ -128,8 +128,8 @@ SharkGame.Settings = {
 
     showAnimations: {
         defaultSetting: true,
-        name: "Show Animations",
-        desc: "Show animations or don't. YOU DECIDE.",
+        name: "Показывать Анимацию",
+        desc: "Показать анимацию или нет. ВЫ РЕШАЕТЕ.",
         show: true,
         options: [
             true,
@@ -139,8 +139,8 @@ SharkGame.Settings = {
 
     colorCosts: {
         defaultSetting: true,
-        name: "Color Resource Names",
-        desc: "When displaying costs, color names of stuff.",
+        name: "Цветные Имена Ресурсов",
+        desc: "При отображении стоимости, названия цветов вещи.",
         show: true,
         options: [
             true,
@@ -154,8 +154,8 @@ SharkGame.Settings = {
 
     iconPositions: {
         defaultSetting: "top",
-        name: "Icon Positions",
-        desc: "Where should icons go on the buttons?",
+        name: "Позиции Иконок",
+        desc: "Где распологаются иконки на кнопках?",
         show: true,
         options: [
             "top",
@@ -167,7 +167,7 @@ SharkGame.Settings = {
     showTabImages: {
         defaultSetting: true,
         name: "Show Tab Header Images",
-        desc: "Do you want the new header images or are they taking up precious screen real-estate?",
+        desc: "Показывать изображения заголовков, они занимают много места?",
         show: true,
         options: [
             true,
