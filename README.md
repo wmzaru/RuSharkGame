@@ -1,7 +1,7 @@
 # Shark Game #
 
-Shark Game is a web game made entirely in HTML, CSS and JavaScript. It is a game belonging to the "idle" or "incremental" genre. It does not require constant player attention, and can progress while the player does other things before returning to it. This isn't in any way a new or pioneering concept - a lot of people have probably heard of Candy Box or A Dark Room, or the more popular contemporary Cookie Clicker.
+Shark Game - это веб-игра, полностью созданная на HTML, CSS и JavaScript. Это игра, относящаяся к жанру «холостой» или «инкрементный». Он не требует постоянного внимания игрока и может прогрессировать, пока игрок делает другие вещи, прежде чем вернуться к нему. Это ни в коем случае не является новой или новаторской концепцией - многие люди, вероятно, слышали о Candy Box или A Dark Room, или о более популярном современном Cookie Clicker.
 
-## Development Plan ##
+## План развития ##
 
-All development plans are in plans.txt. Suffice to say spoilers lurk within that file, and all plans are susceptible to change on a whim.
+Все планы развития находятся в планах. Достаточно сказать, что в этом файле скрываются спойлеры, и все планы подвержены изменениям по прихоти.
