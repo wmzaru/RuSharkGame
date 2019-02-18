@@ -71,7 +71,7 @@ SharkGame.World = {
         var wr = w.worldResources;
         var rt = SharkGame.ResourceTable;
 
-        // set up defaults
+        // стандартные настройки
         $.each(rt, function(k, v) {
             wr[k] = {};
             wr[k].exists = true;
@@ -87,16 +87,16 @@ SharkGame.World = {
         var wr = w.worldResources;
         var worldInfo = SharkGame.WorldTypes[w.worldType];
 
-        // get multiplier
+        // получить множитель
         var terraformMultiplier = w.getTerraformMultiplier();
         var effectiveLevel = Math.max(Math.floor(level * terraformMultiplier), 1);
 
-        // disable resources not allowed on planet
+        // отключить ресурсы, не разрешенные на планете
         $.each(worldInfo.absentResources, function(i, v) {
             wr[v].exists = false;
         });
 
-        // apply world modifiers
+        // применить мировые модификаторы
         _.each(worldInfo.modifiers, function(modifierData) {
             if(SharkGame.Resources.isCategory(modifierData.resource)) {
                 var resourceList = SharkGame.Resources.getResourcesInCategory(modifierData.resource);
@@ -125,7 +125,7 @@ SharkGame.World = {
         return SharkGame.WorldTypes[w.worldType].entry;
     },
 
-    // does this resource exist on this planet?
+    // существует ли этот ресурс на этой планете?
     doesResourceExist: function(resourceName) {
         var info = SharkGame.World.worldResources[resourceName];
         return info.exists;
@@ -148,7 +148,7 @@ SharkGame.World = {
         return artifactMultiplier;
     },
 
-    // these things are only impacted by artifacts so far
+    // на эти вещи влияют только артефакты
 
     getTerraformMultiplier: function() {
         var ptLevel = SharkGame.Artifacts.planetTerraformer.level;
